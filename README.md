@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19425727.svg)](https://doi.org/10.5281/zenodo.19425727)
+
 # E-ZERO PROTOCOL
 ### High-Entropy Data Resonance (HEDR)
 **A Formal Framework for AI Compute Energy Reduction via Lightweight Prompt Filtering**
