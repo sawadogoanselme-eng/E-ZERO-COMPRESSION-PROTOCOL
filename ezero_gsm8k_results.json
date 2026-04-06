@@ -5,11 +5,11 @@
   "summary": {
     "questions_tested": 100,
     "filter_activated_pct": 65.0,
-    "avg_compression_rho": 0.671,
-    "tokens_reduced_pct": 32.9,
-    "avg_energy_gain_pct": 45.5,
-    "avg_fidelity_pct": 87.9,
-    "avg_filter_time_ms": 13.751
+    "avg_compression_rho": 0.646,
+    "tokens_reduced_pct": 35.4,
+    "avg_energy_gain_pct": 48.0,
+    "avg_fidelity_pct": 87.6,
+    "avg_filter_time_ms": 13.989
   },
   "results": [
     {
@@ -22,31 +22,31 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.052
+      "elapsed_ms": 0.042
     },
     {
       "id": 2,
       "question": "A robe takes 2 bolts of blue fiber and half that much white fiber.  How many bol...",
-      "skeleton": "robe takes 2 bolts fiber half much fiber. How many bolts total does take?",
+      "skeleton": "robe takes 2 bolts fiber half much How many bolts total",
       "tokens_in": 22,
-      "tokens_out": 14,
-      "rho": 0.636,
-      "gain_pct": 59.5,
+      "tokens_out": 11,
+      "rho": 0.5,
+      "gain_pct": 75.0,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 53.341
+      "elapsed_ms": 14.618
     },
     {
       "id": 3,
       "question": "Josh decides to try flipping a house.  He buys a house for $80,000 and then puts...",
-      "skeleton": "Josh decides try flipping a buys a house $80,000 puts in $50,000 in increased va...",
+      "skeleton": "Josh decides try flipping house. buys house $80,000 and puts $50,000 repairs. in...",
       "tokens_in": 35,
-      "tokens_out": 20,
-      "rho": 0.571,
-      "gain_pct": 67.3,
+      "tokens_out": 21,
+      "rho": 0.6,
+      "gain_pct": 64.0,
       "fidelity": 0.667,
       "activated": true,
-      "elapsed_ms": 19.432
+      "elapsed_ms": 18.751
     },
     {
       "id": 4,
@@ -63,26 +63,26 @@
     {
       "id": 5,
       "question": "Every day, Wendi feeds each of her chickens three cups of mixed chicken feed, co...",
-      "skeleton": "feeds each of chickens three cups of gives the chickens feed three the gives flo...",
+      "skeleton": "Wendi feeds each chickens three cups chicken containing mealworms vegetables hel...",
       "tokens_in": 87,
-      "tokens_out": 41,
-      "rho": 0.471,
-      "gain_pct": 77.8,
+      "tokens_out": 37,
+      "rho": 0.425,
+      "gain_pct": 81.9,
       "fidelity": 0.75,
       "activated": true,
-      "elapsed_ms": 32.541
+      "elapsed_ms": 32.439
     },
     {
       "id": 6,
       "question": "Kylar went to the store to buy glasses for his new apartment. One glass costs $5...",
-      "skeleton": "Kylar went to to buy glass costs $5, glass costs 60% price. Kylar wants to buy 1...",
+      "skeleton": "Kylar went store buy glasses One glass costs $5, glass costs 60% price. Kylar wa...",
       "tokens_in": 41,
-      "tokens_out": 22,
-      "rho": 0.537,
-      "gain_pct": 71.2,
+      "tokens_out": 21,
+      "rho": 0.512,
+      "gain_pct": 73.8,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 17.564
+      "elapsed_ms": 17.348
     },
     {
       "id": 7,
@@ -94,115 +94,115 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.022
+      "elapsed_ms": 0.023
     },
     {
       "id": 8,
       "question": "Carla is downloading a 200 GB file. Normally she can download 2 GB/minute, but 4...",
-      "skeleton": "Carla downloading 200 download 2 40% the the forces restart to install 20 minute...",
+      "skeleton": "Carla downloading 200 GB download 2 40% way Windows forces restart install takes...",
       "tokens_in": 51,
-      "tokens_out": 26,
-      "rho": 0.51,
-      "gain_pct": 74.0,
+      "tokens_out": 23,
+      "rho": 0.451,
+      "gain_pct": 79.7,
       "fidelity": 0.5,
       "activated": true,
-      "elapsed_ms": 20.745
+      "elapsed_ms": 21.961
     },
     {
       "id": 9,
       "question": "John drives for 3 hours at a speed of 60 mph and then turns around because he re...",
-      "skeleton": "John drives 3 hours at speed of 60 turns he he at tries get home 4 hours spends ...",
+      "skeleton": "John drives 3 hours speed 60 mph turns realizes forgot tries get home 4 hours sp...",
       "tokens_in": 82,
-      "tokens_out": 43,
-      "rho": 0.524,
-      "gain_pct": 72.5,
+      "tokens_out": 35,
+      "rho": 0.427,
+      "gain_pct": 81.8,
       "fidelity": 0.6,
       "activated": true,
-      "elapsed_ms": 27.678
+      "elapsed_ms": 29.526
     },
     {
       "id": 10,
       "question": "Eliza's rate per hour for the first 40 hours she works each week is $10. She als...",
-      "skeleton": "rate per hour for 40 hours works each week is $10. receives overtime pay 1.2 tim...",
+      "skeleton": "rate per hour 40 hours works each week $10. receives overtime pay 1.2 times Eliz...",
       "tokens_in": 44,
-      "tokens_out": 26,
-      "rho": 0.591,
-      "gain_pct": 65.1,
+      "tokens_out": 21,
+      "rho": 0.477,
+      "gain_pct": 77.2,
       "fidelity": 0.857,
       "activated": true,
-      "elapsed_ms": 19.556
+      "elapsed_ms": 20.299
     },
     {
       "id": 11,
       "question": "A new program had 60 downloads in the first month. The number of downloads in th...",
-      "skeleton": "program had 60 downloads the number downloads the was three times many the downl...",
+      "skeleton": "program had 60 downloads first number downloads month three times many downloads...",
       "tokens_in": 51,
-      "tokens_out": 28,
-      "rho": 0.549,
-      "gain_pct": 69.8,
+      "tokens_out": 23,
+      "rho": 0.451,
+      "gain_pct": 79.7,
       "fidelity": 0.833,
       "activated": true,
-      "elapsed_ms": 21.649
+      "elapsed_ms": 21.913
     },
     {
       "id": 12,
       "question": "Toula went to the bakery and bought various types of pastries. She bought 3 doze...",
-      "skeleton": "Toula went and bought bought 3 dozen donuts cost $68 per dozen, 2 dozen mini cos...",
+      "skeleton": "Toula went bakery bought types bought 3 dozen donuts cost $68 per 2 dozen mini c...",
       "tokens_in": 45,
       "tokens_out": 29,
       "rho": 0.644,
       "gain_pct": 58.5,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 28.888
+      "elapsed_ms": 24.076
     },
     {
       "id": 13,
       "question": "Carlos is planting a lemon tree. The tree will cost $90 to plant. Each year it w...",
-      "skeleton": "Carlos planting lemon tree. will cost $90 Each year it will grow 7 sell $1.5 eac...",
+      "skeleton": "Carlos planting lemon tree will cost $90 Each year will grow 7 sell $1.5 each. c...",
       "tokens_in": 53,
-      "tokens_out": 30,
-      "rho": 0.566,
-      "gain_pct": 67.9,
+      "tokens_out": 29,
+      "rho": 0.547,
+      "gain_pct": 70.0,
       "fidelity": 0.833,
       "activated": true,
-      "elapsed_ms": 30.826
+      "elapsed_ms": 22.333
     },
     {
       "id": 14,
       "question": "Melanie is a door-to-door saleswoman. She sold a third of her vacuum cleaners at...",
-      "skeleton": "Melanie is sold third vacuum cleaners the green house, 2 more the house, half wh...",
+      "skeleton": "Melanie sold third vacuum cleaners green house, 2 more red house, half what left...",
       "tokens_in": 46,
-      "tokens_out": 26,
-      "rho": 0.565,
-      "gain_pct": 68.0,
+      "tokens_out": 24,
+      "rho": 0.522,
+      "gain_pct": 72.8,
       "fidelity": 0.833,
       "activated": true,
-      "elapsed_ms": 25.697
+      "elapsed_ms": 18.649
     },
     {
       "id": 15,
       "question": "In a dance class of 20 students, 20% enrolled in contemporary dance, 25% of the ...",
-      "skeleton": "20 20% enrolled in dance, 25% remaining enrolled in dance, enrolled in hip-hop W...",
+      "skeleton": "dance class 20 20% enrolled dance, 25% remaining enrolled jazz dance, rest enrol...",
       "tokens_in": 37,
-      "tokens_out": 18,
-      "rho": 0.486,
-      "gain_pct": 76.3,
+      "tokens_out": 19,
+      "rho": 0.514,
+      "gain_pct": 73.6,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 19.107
+      "elapsed_ms": 21.61
     },
     {
       "id": 16,
       "question": "A merchant wants to make a choice of purchase between 2 purchase plans: jewelry ...",
-      "skeleton": "merchant wants make purchase between 2 purchase jewelry worth $5,000 gadgets wor...",
+      "skeleton": "merchant wants make choice purchase between 2 purchase jewelry worth $5,000 gadg...",
       "tokens_in": 69,
-      "tokens_out": 36,
-      "rho": 0.522,
-      "gain_pct": 72.8,
+      "tokens_out": 34,
+      "rho": 0.493,
+      "gain_pct": 75.7,
       "fidelity": 0.75,
       "activated": true,
-      "elapsed_ms": 30.336
+      "elapsed_ms": 26.391
     },
     {
       "id": 17,
@@ -214,19 +214,19 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.058
+      "elapsed_ms": 0.024
     },
     {
       "id": 18,
       "question": "Jill gets paid $20 per hour to teach and $30 to be a cheerleading coach. If she ...",
-      "skeleton": "Jill paid $20 per hour teach $30 a cheerleading works 50 weeks a 35 hours a week...",
+      "skeleton": "Jill paid $20 per hour teach $30 cheerleading works 50 weeks 35 hours week teach...",
       "tokens_in": 41,
-      "tokens_out": 23,
-      "rho": 0.561,
-      "gain_pct": 68.5,
+      "tokens_out": 19,
+      "rho": 0.463,
+      "gain_pct": 78.5,
       "fidelity": 0.8,
       "activated": true,
-      "elapsed_ms": 19.154
+      "elapsed_ms": 17.706
     },
     {
       "id": 19,
@@ -238,7 +238,7 @@
       "gain_pct": 61.7,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 18.251
+      "elapsed_ms": 13.074
     },
     {
       "id": 20,
@@ -255,26 +255,26 @@
     {
       "id": 21,
       "question": "I have 10 liters of orange drink that are two-thirds water and I wish to add it ...",
-      "skeleton": "I have 10 liters orange drink water I wish 15 liters drink is I pour I spill lit...",
+      "skeleton": "have 10 liters orange drink water wish add 15 liters pineapple drink pour spill ...",
       "tokens_in": 49,
-      "tokens_out": 25,
-      "rho": 0.51,
-      "gain_pct": 74.0,
+      "tokens_out": 22,
+      "rho": 0.449,
+      "gain_pct": 79.8,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 24.999
+      "elapsed_ms": 23.322
     },
     {
       "id": 22,
       "question": "Raymond and Samantha are cousins. Raymond was born 6 years before Samantha. Raym...",
-      "skeleton": "Raymond Samantha Raymond was born 6 years Raymond had son 23. Samantha 31, how m...",
+      "skeleton": "Raymond Samantha Raymond born 6 years Raymond had son age 23. Samantha 31, how m...",
       "tokens_in": 34,
-      "tokens_out": 18,
-      "rho": 0.529,
-      "gain_pct": 72.0,
+      "tokens_out": 17,
+      "rho": 0.5,
+      "gain_pct": 75.0,
       "fidelity": 0.5,
       "activated": true,
-      "elapsed_ms": 24.224
+      "elapsed_ms": 14.446
     },
     {
       "id": 23,
@@ -286,31 +286,31 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.022
+      "elapsed_ms": 0.026
     },
     {
       "id": 24,
       "question": "A candle melts by 2 centimeters every hour that it burns. How many centimeters s...",
-      "skeleton": "candle melts 2 centimeters hour How many centimeters candle be burning 1:00 PM 5...",
+      "skeleton": "candle melts 2 centimeters hour How many centimeters candle burning 1:00 PM 5:00",
       "tokens_in": 27,
-      "tokens_out": 14,
-      "rho": 0.519,
-      "gain_pct": 73.1,
+      "tokens_out": 13,
+      "rho": 0.481,
+      "gain_pct": 76.8,
       "fidelity": 0.667,
       "activated": true,
-      "elapsed_ms": 14.599
+      "elapsed_ms": 13.18
     },
     {
       "id": 25,
       "question": "Kyle bought last year's best-selling book for $19.50. This is with a 25% discoun...",
-      "skeleton": "Kyle bought $19.50. is 25% discount the original price. What was the original pr...",
+      "skeleton": "Kyle bought last book $19.50. is 25% discount original price. What was original ...",
       "tokens_in": 26,
-      "tokens_out": 15,
-      "rho": 0.577,
-      "gain_pct": 66.7,
+      "tokens_out": 14,
+      "rho": 0.538,
+      "gain_pct": 71.0,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 11.868
+      "elapsed_ms": 17.892
     },
     {
       "id": 26,
@@ -322,7 +322,7 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.04
+      "elapsed_ms": 0.026
     },
     {
       "id": 27,
@@ -334,7 +334,7 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.017
+      "elapsed_ms": 0.016
     },
     {
       "id": 28,
@@ -346,7 +346,7 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.015
+      "elapsed_ms": 0.014
     },
     {
       "id": 29,
@@ -363,38 +363,38 @@
     {
       "id": 30,
       "question": "Gloria is shoe shopping when she comes across a pair of boots that fit her shoe ...",
-      "skeleton": "Gloria is shoe shopping comes pair boots shoe has choose between the boots and h...",
+      "skeleton": "Gloria shoe shopping comes pair boots fit shoe has choose between boots two pair...",
       "tokens_in": 60,
-      "tokens_out": 32,
-      "rho": 0.533,
-      "gain_pct": 71.5,
+      "tokens_out": 29,
+      "rho": 0.483,
+      "gain_pct": 76.6,
       "fidelity": 0.833,
       "activated": true,
-      "elapsed_ms": 24.704
+      "elapsed_ms": 25.548
     },
     {
       "id": 31,
       "question": "Darrell and Allen's ages are in the ratio of 7:11. If their total age now is 162...",
-      "skeleton": "Darrell Allen's ages are ratio 7:11. total age 162, calculate Allen's age 10 yea...",
+      "skeleton": "Darrell Allen's ages ratio 7:11. total age 162, calculate Allen's age 10 years",
       "tokens_in": 24,
-      "tokens_out": 14,
-      "rho": 0.583,
-      "gain_pct": 66.0,
+      "tokens_out": 13,
+      "rho": 0.542,
+      "gain_pct": 70.6,
       "fidelity": 0.5,
       "activated": true,
-      "elapsed_ms": 14.672
+      "elapsed_ms": 14.393
     },
     {
       "id": 32,
       "question": "Gunter is trying to count the jelly beans in a jar. He asks his friends how many...",
-      "skeleton": "is trying count the jar. asks how many think the jar. says 80. says 20 more half...",
+      "skeleton": "Gunter is trying count beans asks friends how many think One says 80. says 20 mo...",
       "tokens_in": 49,
-      "tokens_out": 26,
-      "rho": 0.531,
-      "gain_pct": 71.8,
+      "tokens_out": 25,
+      "rho": 0.51,
+      "gain_pct": 74.0,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 19.218
+      "elapsed_ms": 22.612
     },
     {
       "id": 33,
@@ -406,7 +406,7 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.022
+      "elapsed_ms": 0.034
     },
     {
       "id": 34,
@@ -418,7 +418,7 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.011
+      "elapsed_ms": 0.017
     },
     {
       "id": 35,
@@ -430,7 +430,7 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.011
+      "elapsed_ms": 0.018
     },
     {
       "id": 36,
@@ -442,19 +442,19 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.012
+      "elapsed_ms": 0.02
     },
     {
       "id": 37,
       "question": "Terry eats 2 yogurts a day.  They are currently on sale at 4 yogurts for $5.00. ...",
-      "skeleton": "Terry eats 2 yogurts are on sale 4 yogurts $5.00. How much spend on yogurt 30 da...",
+      "skeleton": "Terry eats 2 yogurts sale 4 yogurts $5.00. How much spend yogurt 30 days?",
       "tokens_in": 26,
-      "tokens_out": 17,
-      "rho": 0.654,
-      "gain_pct": 57.2,
+      "tokens_out": 14,
+      "rho": 0.538,
+      "gain_pct": 71.0,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 15.099
+      "elapsed_ms": 26.263
     },
     {
       "id": 38,
@@ -466,7 +466,7 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.026
+      "elapsed_ms": 0.027
     },
     {
       "id": 39,
@@ -478,19 +478,19 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.014
+      "elapsed_ms": 0.012
     },
     {
       "id": 40,
       "question": "Dana can run at a rate of speed four times faster than she can walk, but she can...",
-      "skeleton": "Dana can rate speed times she can she can skip rate speed half she can she can s...",
+      "skeleton": "Dana can run rate speed four times can can skip rate speed half can can skip 3 m...",
       "tokens_in": 65,
-      "tokens_out": 33,
-      "rho": 0.508,
-      "gain_pct": 74.2,
+      "tokens_out": 30,
+      "rho": 0.462,
+      "gain_pct": 78.7,
       "fidelity": 0.857,
       "activated": true,
-      "elapsed_ms": 21.592
+      "elapsed_ms": 29.492
     },
     {
       "id": 41,
@@ -502,79 +502,79 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.031
+      "elapsed_ms": 0.036
     },
     {
       "id": 42,
       "question": "The great dragon, Perg, sat high atop mount Farbo, breathing fire upon anything ...",
-      "skeleton": "sat mount breathing fire distance 1000 Polly could throw the the known weapon co...",
+      "skeleton": "great dragon, sat mount breathing fire distance 1000 could throw gold only known...",
       "tokens_in": 95,
-      "tokens_out": 43,
-      "rho": 0.453,
-      "gain_pct": 79.5,
+      "tokens_out": 41,
+      "rho": 0.432,
+      "gain_pct": 81.4,
       "fidelity": 0.667,
       "activated": true,
-      "elapsed_ms": 31.442
+      "elapsed_ms": 37.646
     },
     {
       "id": 43,
       "question": "Grandma Jones baked 5 apple pies for the fireman's luncheon.  She cut each pie i...",
-      "skeleton": "Jones baked 5 pies the cut each pie 8 pieces set the pies the the guests serve t...",
+      "skeleton": "Grandma Jones baked 5 apple pies cut each pie 8 pieces set five pies buffet tabl...",
       "tokens_in": 65,
-      "tokens_out": 33,
-      "rho": 0.508,
-      "gain_pct": 74.2,
+      "tokens_out": 31,
+      "rho": 0.477,
+      "gain_pct": 77.2,
       "fidelity": 0.75,
       "activated": true,
-      "elapsed_ms": 28.834
+      "elapsed_ms": 32.727
     },
     {
       "id": 44,
       "question": "According to its nutritional info, a bag of chips has 250 calories per serving. ...",
-      "skeleton": "According bag chips has 250 calories per 300g bag has 5 how many grams you eat c...",
+      "skeleton": "According bag chips has 250 calories per 300g bag has 5 how many grams eat calor...",
       "tokens_in": 41,
-      "tokens_out": 22,
-      "rho": 0.537,
-      "gain_pct": 71.2,
+      "tokens_out": 20,
+      "rho": 0.488,
+      "gain_pct": 76.2,
       "fidelity": 0.75,
       "activated": true,
-      "elapsed_ms": 20.094
+      "elapsed_ms": 24.745
     },
     {
       "id": 45,
       "question": "Charlie wants to sell beeswax candles.  For every pound of beeswax, he can make ...",
-      "skeleton": "Charlie wants sell beeswax candles. pound he make 10 tapered candles. pound bees...",
+      "skeleton": "Charlie wants sell beeswax pound make 10 tapered One pound beeswax wicks cost $1...",
       "tokens_in": 48,
-      "tokens_out": 26,
-      "rho": 0.542,
-      "gain_pct": 70.6,
+      "tokens_out": 24,
+      "rho": 0.5,
+      "gain_pct": 75.0,
       "fidelity": 0.75,
       "activated": true,
-      "elapsed_ms": 21.131
+      "elapsed_ms": 24.319
     },
     {
       "id": 46,
       "question": "Meredith is a freelance blogger who writes about health topics and submits to cl...",
-      "skeleton": "Meredith blogger and each article takes average 4 hours research and write she w...",
+      "skeleton": "Meredith freelance blogger writes health topics submits clients each day blog ar...",
       "tokens_in": 79,
-      "tokens_out": 39,
-      "rho": 0.494,
-      "gain_pct": 75.6,
+      "tokens_out": 38,
+      "rho": 0.481,
+      "gain_pct": 76.9,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 26.967
+      "elapsed_ms": 53.098
     },
     {
       "id": 47,
       "question": "Candice put 80 post-it notes in her purse before she headed out to her job at th...",
-      "skeleton": "Candice put 80 post-it notes her she headed her her she stopped store purchased ...",
+      "skeleton": "Candice put 80 notes purse headed job coffee stopped store purchased package Pos...",
       "tokens_in": 70,
-      "tokens_out": 35,
-      "rho": 0.5,
-      "gain_pct": 75.0,
+      "tokens_out": 30,
+      "rho": 0.429,
+      "gain_pct": 81.6,
       "fidelity": 0.667,
       "activated": true,
-      "elapsed_ms": 26.073
+      "elapsed_ms": 32.286
     },
     {
       "id": 48,
@@ -586,7 +586,7 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.023
+      "elapsed_ms": 0.022
     },
     {
       "id": 49,
@@ -598,19 +598,19 @@
       "gain_pct": 69.9,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 14.535
+      "elapsed_ms": 16.955
     },
     {
       "id": 50,
       "question": "Richard lives in an apartment building with 15 floors. Each floor contains 8 uni...",
-      "skeleton": "Richard lives apartment building 15 Each floor contains 8 the building the total...",
+      "skeleton": "Richard lives apartment building 15 Each floor contains 8 3/4 building total num...",
       "tokens_in": 31,
-      "tokens_out": 16,
-      "rho": 0.516,
-      "gain_pct": 73.3,
+      "tokens_out": 14,
+      "rho": 0.452,
+      "gain_pct": 79.6,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 16.046
+      "elapsed_ms": 17.54
     },
     {
       "id": 51,
@@ -622,7 +622,7 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.041
+      "elapsed_ms": 0.046
     },
     {
       "id": 52,
@@ -634,7 +634,7 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.026
+      "elapsed_ms": 0.027
     },
     {
       "id": 53,
@@ -646,19 +646,19 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.026
+      "elapsed_ms": 0.027
     },
     {
       "id": 54,
       "question": "A mechanic charges different rates to repair the tires of trucks and cars.  For ...",
-      "skeleton": "mechanic charges repair the and each truck the mechanic charge $60 and each car ...",
+      "skeleton": "mechanic charges rates repair tires trucks each truck tire mechanic charge $60 e...",
       "tokens_in": 78,
-      "tokens_out": 42,
-      "rho": 0.538,
-      "gain_pct": 71.0,
+      "tokens_out": 40,
+      "rho": 0.513,
+      "gain_pct": 73.7,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 34.091
+      "elapsed_ms": 37.277
     },
     {
       "id": 55,
@@ -670,67 +670,67 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.05
+      "elapsed_ms": 0.031
     },
     {
       "id": 56,
       "question": "Jean has 30 lollipops. Jean eats 2 of the lollipops. With the remaining lollipop...",
-      "skeleton": "Jean has 30 lollipops. Jean eats 2 lollipops. remaining Jean wants package 2 How...",
+      "skeleton": "Jean has 30 Jean eats 2 remaining Jean wants package 2 lollipops How many bags J...",
       "tokens_in": 29,
       "tokens_out": 16,
       "rho": 0.552,
       "gain_pct": 69.5,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 13.764
+      "elapsed_ms": 15.413
     },
     {
       "id": 57,
       "question": "Peter plans to go to the movies this week. He always gets a ticket for $7 and po...",
-      "skeleton": "Peter plans to go to gets ticket for $7 popcorn for $7. has 42 for how many time...",
+      "skeleton": "Peter plans go movies week. gets ticket $7 and popcorn $7. has 42 dollars week, ...",
       "tokens_in": 37,
-      "tokens_out": 20,
-      "rho": 0.541,
-      "gain_pct": 70.8,
+      "tokens_out": 21,
+      "rho": 0.568,
+      "gain_pct": 67.8,
       "fidelity": 0.75,
       "activated": true,
-      "elapsed_ms": 16.674
+      "elapsed_ms": 18.554
     },
     {
       "id": 58,
       "question": "A wooden bridge can carry no more than 5000 pounds. A delivery truck filled with...",
-      "skeleton": "carry more 5000 pounds. delivery truck filled each weighing 15 pass the weight t...",
+      "skeleton": "wooden bridge carry more 5000 delivery truck filled each weighing 15 pass combin...",
       "tokens_in": 60,
-      "tokens_out": 31,
-      "rho": 0.517,
-      "gain_pct": 73.3,
+      "tokens_out": 27,
+      "rho": 0.45,
+      "gain_pct": 79.7,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 24.577
+      "elapsed_ms": 26.717
     },
     {
       "id": 59,
       "question": "Stephen placed an online order for groceries.  His final bill came to $40.00.  B...",
-      "skeleton": "Stephen placed order final bill came $40.00. was a delivery tacked a 25% fee fin...",
+      "skeleton": "Stephen placed online order groceries. final bill came $40.00. was delivery vend...",
       "tokens_in": 55,
-      "tokens_out": 27,
-      "rho": 0.491,
-      "gain_pct": 75.9,
+      "tokens_out": 34,
+      "rho": 0.618,
+      "gain_pct": 61.8,
       "fidelity": 0.667,
       "activated": true,
-      "elapsed_ms": 22.929
+      "elapsed_ms": 23.448
     },
     {
       "id": 60,
       "question": "A raspberry bush has 6 clusters of 20 fruit each and 67 individual fruit scatter...",
-      "skeleton": "raspberry has 6 clusters 20 fruit each 67 fruit scattered How many raspberries a...",
+      "skeleton": "raspberry bush has 6 clusters 20 fruit each 67 fruit scattered How many raspberr...",
       "tokens_in": 24,
       "tokens_out": 15,
       "rho": 0.625,
       "gain_pct": 60.9,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 14.491
+      "elapsed_ms": 14.805
     },
     {
       "id": 61,
@@ -742,67 +742,67 @@
       "gain_pct": 66.7,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 15.68
+      "elapsed_ms": 16.004
     },
     {
       "id": 62,
       "question": "Janet buys a brooch for her daughter.  She pays $500 for the material to make it...",
-      "skeleton": "Janet buys brooch for pays $500 for to make $800 for to construct she pays 10% t...",
+      "skeleton": "Janet buys brooch daughter. pays $500 material to make $800 jeweler to construct...",
       "tokens_in": 42,
-      "tokens_out": 21,
-      "rho": 0.5,
-      "gain_pct": 75.0,
+      "tokens_out": 24,
+      "rho": 0.571,
+      "gain_pct": 67.3,
       "fidelity": 0.5,
       "activated": true,
-      "elapsed_ms": 17.531
+      "elapsed_ms": 17.719
     },
     {
       "id": 63,
       "question": "If Marcy works for the same company for 40 years, she gets an annual pension of ...",
-      "skeleton": "If works 40 years, she gets annual pension Starting 20 years, she becomes 5% pen...",
+      "skeleton": "Marcy works company 40 years, gets annual pension Starting 20 years, becomes 5% ...",
       "tokens_in": 46,
-      "tokens_out": 24,
-      "rho": 0.522,
-      "gain_pct": 72.8,
-      "fidelity": 0.667,
+      "tokens_out": 22,
+      "rho": 0.478,
+      "gain_pct": 77.1,
+      "fidelity": 0.333,
       "activated": true,
-      "elapsed_ms": 17.683
+      "elapsed_ms": 20.734
     },
     {
       "id": 64,
       "question": "Aleena subscribed to a streaming service that charges her $140 per month. If the...",
-      "skeleton": "Aleena subscribed streaming service $140 per the streaming company charged the a...",
+      "skeleton": "Aleena subscribed streaming service charges $140 per streaming company charged i...",
       "tokens_in": 59,
-      "tokens_out": 30,
-      "rho": 0.508,
-      "gain_pct": 74.1,
+      "tokens_out": 28,
+      "rho": 0.475,
+      "gain_pct": 77.5,
       "fidelity": 0.714,
       "activated": true,
-      "elapsed_ms": 19.252
+      "elapsed_ms": 18.918
     },
     {
       "id": 65,
       "question": "Sophia is thinking of taking a road trip in her car, and would like to know how ...",
-      "skeleton": "Sophia thinking of her like to how drive tank of traveled 100 miles filling her ...",
+      "skeleton": "Sophia thinking taking road trip like know how drive single tank traveled 100 mi...",
       "tokens_in": 79,
-      "tokens_out": 37,
-      "rho": 0.468,
-      "gain_pct": 78.1,
+      "tokens_out": 35,
+      "rho": 0.443,
+      "gain_pct": 80.4,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 26.185
+      "elapsed_ms": 25.358
     },
     {
       "id": 66,
       "question": "Jim spends 2 hours watching TV and then decides to go to bed and reads for half ...",
-      "skeleton": "Jim spends 2 hours TV and decides and half does 3 times How many hours does spen...",
+      "skeleton": "Jim spends 2 hours watching TV decides go bed reads half 3 times How many hours ...",
       "tokens_in": 39,
-      "tokens_out": 22,
-      "rho": 0.564,
-      "gain_pct": 68.2,
+      "tokens_out": 21,
+      "rho": 0.538,
+      "gain_pct": 71.0,
       "fidelity": 0.857,
       "activated": true,
-      "elapsed_ms": 14.679
+      "elapsed_ms": 16.113
     },
     {
       "id": 67,
@@ -814,19 +814,19 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.031
+      "elapsed_ms": 0.032
     },
     {
       "id": 68,
       "question": "A treasure hunter found a buried treasure chest filled with gems. There were 175...",
-      "skeleton": "treasure hunter found buried treasure chest filled were 175 diamonds, 35 diamond...",
+      "skeleton": "treasure hunter found buried treasure chest filled were 175 35 rubies number eme...",
       "tokens_in": 39,
-      "tokens_out": 20,
-      "rho": 0.513,
-      "gain_pct": 73.7,
+      "tokens_out": 17,
+      "rho": 0.436,
+      "gain_pct": 81.0,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 19.424
+      "elapsed_ms": 19.157
     },
     {
       "id": 69,
@@ -838,31 +838,31 @@
       "gain_pct": 75.0,
       "fidelity": 0.667,
       "activated": true,
-      "elapsed_ms": 13.706
+      "elapsed_ms": 17.418
     },
     {
       "id": 70,
       "question": "Bailey starts with a certain amount of money. Then she receives a weekly allowan...",
-      "skeleton": "Bailey starts amount of receives allowance of $5 8 weeks. end of 8 weeks, has to...",
+      "skeleton": "Bailey starts certain amount receives weekly allowance $5 8 weeks. end 8 weeks, ...",
       "tokens_in": 40,
-      "tokens_out": 23,
-      "rho": 0.575,
-      "gain_pct": 66.9,
+      "tokens_out": 21,
+      "rho": 0.525,
+      "gain_pct": 72.4,
       "fidelity": 0.6,
       "activated": true,
-      "elapsed_ms": 14.891
+      "elapsed_ms": 16.435
     },
     {
       "id": 71,
       "question": "Judy teaches 5 dance classes, every day, on the weekdays and 8 classes on Saturd...",
-      "skeleton": "Judy teaches 5 dance weekdays and 8 classes each class has 15 students and she c...",
+      "skeleton": "Judy teaches 5 dance weekdays 8 classes each class has 15 students charges $15.0...",
       "tokens_in": 36,
-      "tokens_out": 24,
-      "rho": 0.667,
-      "gain_pct": 55.5,
+      "tokens_out": 20,
+      "rho": 0.556,
+      "gain_pct": 69.1,
       "fidelity": 0.8,
       "activated": true,
-      "elapsed_ms": 19.497
+      "elapsed_ms": 20.82
     },
     {
       "id": 72,
@@ -874,31 +874,31 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.023
+      "elapsed_ms": 0.027
     },
     {
       "id": 73,
       "question": "Tommy is fundraising for his charity by selling brownies for $3 a slice and chee...",
-      "skeleton": "Tommy fundraising for charity selling brownies for $3 and for $4 Tommy sells 43 ...",
+      "skeleton": "Tommy fundraising charity selling brownies $3 slice cheesecakes $4 Tommy sells 4...",
       "tokens_in": 35,
-      "tokens_out": 21,
-      "rho": 0.6,
-      "gain_pct": 64.0,
+      "tokens_out": 19,
+      "rho": 0.543,
+      "gain_pct": 70.5,
       "fidelity": 0.667,
       "activated": true,
-      "elapsed_ms": 17.188
+      "elapsed_ms": 17.876
     },
     {
       "id": 74,
       "question": "Shiela bought five cell phones for $150 each for a 3-month installment. A 2% int...",
-      "skeleton": "Shiela bought phones for $150 each for 2% interest will charged for each How muc...",
+      "skeleton": "Shiela bought five cell phones $150 each 2% interest charged each How much Shiel...",
       "tokens_in": 31,
-      "tokens_out": 23,
-      "rho": 0.742,
-      "gain_pct": 44.9,
+      "tokens_out": 19,
+      "rho": 0.613,
+      "gain_pct": 62.4,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 15.036
+      "elapsed_ms": 16.543
     },
     {
       "id": 75,
@@ -910,91 +910,91 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.036
+      "elapsed_ms": 0.037
     },
     {
       "id": 76,
       "question": "Luke is spending time at the beach building sandcastles. He eventually notices t...",
-      "skeleton": "is spending the notices each level sandcastle have half the square footage the l...",
+      "skeleton": "Luke spending time beach building notices each level sandcastle have half square...",
       "tokens_in": 55,
-      "tokens_out": 27,
-      "rho": 0.491,
-      "gain_pct": 75.9,
+      "tokens_out": 26,
+      "rho": 0.473,
+      "gain_pct": 77.6,
       "fidelity": 0.667,
       "activated": true,
-      "elapsed_ms": 19.75
+      "elapsed_ms": 20.097
     },
     {
       "id": 77,
       "question": "Cecilia just bought a new puppy. According to her veterinarian, she has to feed ...",
-      "skeleton": "Cecilia bought has feed the 1 of dog food day the 180 days. has feed the 2 of do...",
+      "skeleton": "Cecilia bought According has feed 1 cup dog food day 180 days. has feed 2 cups d...",
       "tokens_in": 70,
-      "tokens_out": 35,
-      "rho": 0.5,
-      "gain_pct": 75.0,
+      "tokens_out": 33,
+      "rho": 0.471,
+      "gain_pct": 77.8,
       "fidelity": 0.5,
       "activated": true,
-      "elapsed_ms": 19.509
+      "elapsed_ms": 20.229
     },
     {
       "id": 78,
       "question": "If Raymond does half as much laundry as Sarah, and Sarah does 4 times as much la...",
-      "skeleton": "Raymond does half as much laundry as Sarah does 4 times as much laundry as calcu...",
+      "skeleton": "Raymond does half much laundry Sarah does 4 times much laundry calculate differe...",
       "tokens_in": 38,
-      "tokens_out": 21,
-      "rho": 0.553,
-      "gain_pct": 69.4,
+      "tokens_out": 20,
+      "rho": 0.526,
+      "gain_pct": 72.3,
       "fidelity": 0.75,
       "activated": true,
-      "elapsed_ms": 15.262
+      "elapsed_ms": 16.624
     },
     {
       "id": 79,
       "question": "Vincent can buy flowers in packages of 3 for $2.50 or in packages of 2 for $1. H...",
-      "skeleton": "Vincent buy flowers in packages 3 for $2.50 in packages 2 for $1. How much money...",
+      "skeleton": "Vincent buy flowers packages 3 $2.50 packages 2 $1. How much money save buying 1...",
       "tokens_in": 31,
-      "tokens_out": 21,
-      "rho": 0.677,
-      "gain_pct": 54.1,
+      "tokens_out": 17,
+      "rho": 0.548,
+      "gain_pct": 69.9,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 14.872
+      "elapsed_ms": 15.93
     },
     {
       "id": 80,
       "question": "John adopts a dog.  He takes the dog to the groomer, which costs $100.  The groo...",
-      "skeleton": "John adopts a takes the dog the costs $100. groomer offers a 30% discount a How ...",
+      "skeleton": "John adopts dog. takes dog groomer, costs $100. groomer offers 30% discount new ...",
       "tokens_in": 32,
       "tokens_out": 19,
       "rho": 0.594,
       "gain_pct": 64.7,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 16.857
+      "elapsed_ms": 16.601
     },
     {
       "id": 81,
       "question": "Two girls each got 1/6 of the 24 liters of water. Then a boy got 6 liters of wat...",
-      "skeleton": "each got of 24 liters of water. got 6 liters of water. How many liters of left?",
+      "skeleton": "Two girls each got 1/6 24 liters boy got 6 liters How many liters water left?",
       "tokens_in": 26,
-      "tokens_out": 17,
-      "rho": 0.654,
-      "gain_pct": 57.2,
+      "tokens_out": 16,
+      "rho": 0.615,
+      "gain_pct": 62.1,
       "fidelity": 0.75,
       "activated": true,
-      "elapsed_ms": 14.407
+      "elapsed_ms": 12.774
     },
     {
       "id": 82,
       "question": "Charlie had 10 stickers. He bought 21 stickers from a store in the mall and got ...",
-      "skeleton": "Charlie had 10 bought 21 stickers store and got 23 stickers Charlie gave 9 stick...",
+      "skeleton": "Charlie had 10 bought 21 stickers store mall got 23 stickers Charlie gave 9 stic...",
       "tokens_in": 46,
       "tokens_out": 25,
       "rho": 0.543,
       "gain_pct": 70.5,
       "fidelity": 0.667,
       "activated": true,
-      "elapsed_ms": 17.164
+      "elapsed_ms": 19.229
     },
     {
       "id": 83,
@@ -1030,43 +1030,43 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.008
+      "elapsed_ms": 0.009
     },
     {
       "id": 86,
       "question": "Gene is sewing a quilt out of old souvenir t-shirts. He has one shirt from each ...",
-      "skeleton": "Gene is sewing quilt He has shirt each he has shirt is quilt Each row is made bl...",
+      "skeleton": "Gene is sewing quilt souvenir has one shirt each vacation has shirt is quilt Eac...",
       "tokens_in": 70,
-      "tokens_out": 37,
-      "rho": 0.529,
-      "gain_pct": 72.1,
+      "tokens_out": 36,
+      "rho": 0.514,
+      "gain_pct": 73.5,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 28.129
+      "elapsed_ms": 27.517
     },
     {
       "id": 87,
       "question": "Greg has an alarm set to ring three times a day as a reminder. When the alarm go...",
-      "skeleton": "Greg has alarm ring times as alarm it continues ring Greg it time it went it ran...",
+      "skeleton": "Greg has alarm set ring three times day alarm goes continues ring Greg turns fir...",
       "tokens_in": 78,
-      "tokens_out": 37,
-      "rho": 0.474,
-      "gain_pct": 77.5,
+      "tokens_out": 36,
+      "rho": 0.462,
+      "gain_pct": 78.7,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 23.108
+      "elapsed_ms": 22.15
     },
     {
       "id": 88,
       "question": "A company pays each of its employees $600 in a month. The company has a policy o...",
-      "skeleton": "company pays each of employees $600 company has policy of increasing salaries of...",
+      "skeleton": "company pays each employees $600 company has policy increasing salaries each emp...",
       "tokens_in": 64,
-      "tokens_out": 32,
-      "rho": 0.5,
-      "gain_pct": 75.0,
+      "tokens_out": 30,
+      "rho": 0.469,
+      "gain_pct": 78.0,
       "fidelity": 0.5,
       "activated": true,
-      "elapsed_ms": 22.481
+      "elapsed_ms": 21.636
     },
     {
       "id": 89,
@@ -1090,19 +1090,19 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.016
+      "elapsed_ms": 0.017
     },
     {
       "id": 91,
       "question": "Ted the T-Rex was planning to bring potato salad to the dinosaur picnic.  He kno...",
-      "skeleton": "Ted planning to bring potato salad to dinosaur knows dinosaur will eat 10 potato...",
+      "skeleton": "Ted planning bring potato salad dinosaur knows adult dinosaur eat 10 lbs potato ...",
       "tokens_in": 72,
-      "tokens_out": 35,
-      "rho": 0.486,
-      "gain_pct": 76.4,
+      "tokens_out": 33,
+      "rho": 0.458,
+      "gain_pct": 79.0,
       "fidelity": 0.8,
       "activated": true,
-      "elapsed_ms": 25.332
+      "elapsed_ms": 24.695
     },
     {
       "id": 92,
@@ -1126,43 +1126,43 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.015
+      "elapsed_ms": 0.016
     },
     {
       "id": 94,
       "question": "Lee used to be able to run the 400-meter hurdles two seconds faster than Gerald ...",
-      "skeleton": "Lee used run the 400-meter hurdles Gerald run the 400-meter Gerald changed diet,...",
+      "skeleton": "Lee used run 400-meter hurdles two seconds Gerald run 400-meter Gerald changed i...",
       "tokens_in": 54,
-      "tokens_out": 25,
-      "rho": 0.463,
-      "gain_pct": 78.6,
+      "tokens_out": 24,
+      "rho": 0.444,
+      "gain_pct": 80.2,
       "fidelity": 0.5,
       "activated": true,
-      "elapsed_ms": 23.075
+      "elapsed_ms": 22.171
     },
     {
       "id": 95,
       "question": "In a neighborhood, the number of rabbits pets is twelve less than the combined n...",
-      "skeleton": "the number pets is less the number dogs and are and the number dogs is 60, how m...",
+      "skeleton": "number rabbits pets twelve less combined number dogs are two cats number dogs 60...",
       "tokens_in": 44,
-      "tokens_out": 22,
-      "rho": 0.5,
-      "gain_pct": 75.0,
+      "tokens_out": 19,
+      "rho": 0.432,
+      "gain_pct": 81.3,
       "fidelity": 0.833,
       "activated": true,
-      "elapsed_ms": 20.687
+      "elapsed_ms": 18.764
     },
     {
       "id": 96,
       "question": "Out of the 200 Grade 5 students, 2/5 are boys and 2/3 of the girls are in the gi...",
-      "skeleton": "the 200 5 are the girls are the girl How many girls are the girl",
+      "skeleton": "200 Grade 5 2/5 are boys 2/3 girls are girl How many girls are girl",
       "tokens_in": 29,
       "tokens_out": 15,
       "rho": 0.517,
       "gain_pct": 73.2,
       "fidelity": 1.0,
       "activated": true,
-      "elapsed_ms": 10.985
+      "elapsed_ms": 11.755
     },
     {
       "id": 97,
@@ -1191,14 +1191,14 @@
     {
       "id": 99,
       "question": "Cars have lined up on the motorway. Some of the cars drive through in the first ...",
-      "skeleton": "have lined the the cars drive the 15 minutes the traffic 20 more cars drive the ...",
+      "skeleton": "Cars have lined cars drive 15 minutes traffic 20 more cars drive remaining 15 mi...",
       "tokens_in": 76,
-      "tokens_out": 40,
-      "rho": 0.526,
-      "gain_pct": 72.3,
+      "tokens_out": 34,
+      "rho": 0.447,
+      "gain_pct": 80.0,
       "fidelity": 0.714,
       "activated": true,
-      "elapsed_ms": 24.482
+      "elapsed_ms": 21.434
     },
     {
       "id": 100,
@@ -1210,7 +1210,7 @@
       "gain_pct": 0.0,
       "fidelity": 1.0,
       "activated": false,
-      "elapsed_ms": 0.031
+      "elapsed_ms": 0.03
     }
   ]
 }

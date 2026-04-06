@@ -2,7 +2,7 @@
 E-ZERO PROTOCOL — Lightweight Filter F
 =======================================
 Author : Sawadogo Anselme (@sawadogoanselme-eng)
-Version: 1.0 — April 2026
+Version: 2.1 — April 2026 — BBH logical reasoning support
 
 This module implements the Logical Skeleton extractor S(P) described
 in the E-ZERO white paper. It operates in O(n log n) and is model-agnostic.
@@ -38,9 +38,9 @@ class EZeroConfig:
     """All tunable parameters of the E-ZERO filter."""
 
     # Scoring weights (must sum to 1.0)
-    lambda_tfidf : float = 0.5   # Rarity of token in context
-    lambda_pos   : float = 0.3   # Syntactic importance
-    lambda_dep   : float = 0.2   # Dependency tree depth
+    lambda_tfidf : float = 0.2   # Rarity of token in context
+    lambda_pos   : float = 0.7   # Syntactic importance
+    lambda_dep   : float = 0.1   # Dependency tree depth
 
     # Activation thresholds
     n_min        : int   = 20    # Minimum prompt length to activate filter
@@ -48,7 +48,7 @@ class EZeroConfig:
     gamma        : float = 0.25  # Minimum confidence score to activate
 
     # Compression target
-    rho_target   : float = 0.4   # Target: keep 40% of tokens
+    rho_target   : float = 0.3   # Target: keep 30% of tokens
 
     # Cost coefficients (for gain estimation)
     alpha        : float = 1.0   # Model cost coefficient (O(n²))
@@ -135,10 +135,20 @@ def compute_tfidf(tokens: List[str]) -> dict:
 # ═══════════════════════════════════════════════════════════════════════════
 
 MATH_QUESTION_WORDS = {
-    "how", "many", "much", "total", "each", "per", "left", "remaining",
+    # Math keywords (GSM8K)
+    "how", "many", "much", "total", "each", "per", "remaining",
     "altogether", "number", "times", "half", "double", "triple", "what",
     "cost", "price", "paid", "spend", "earn", "buy", "sell", "more", "less",
-    "days", "hours", "minutes", "weeks", "months", "years", "between",
+    "days", "hours", "minutes", "weeks", "months", "years",
+    # Logical reasoning keywords (BBH)
+    "first", "second", "third", "fourth", "fifth", "last", "next",
+    "left", "right", "middle", "between", "above", "below", "beside",
+    "before", "after", "not", "never", "neither", "nor", "only",
+    "all", "every", "some", "none", "any", "both", "either",
+    "if", "then", "therefore", "because", "since", "unless",
+    "true", "false", "correct", "incorrect", "which", "who", "where",
+    "ordered", "order", "arranged", "position", "place", "following",
+    "described", "statement", "statements", "objects", "set",
 }
 
 def is_critical_token(token: str) -> bool:

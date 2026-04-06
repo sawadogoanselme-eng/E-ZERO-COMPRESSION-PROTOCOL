@@ -1,0 +1,27 @@
+{
+  "version": "2.0",
+  "date": "2026-04-05",
+  "method": "Grid Search sur 100 questions GSM8K",
+  "best_params": {
+    "lambda_tfidf": 0.2,
+    "lambda_pos": 0.7,
+    "lambda_dep": 0.1,
+    "rho_target": 0.3,
+    "gamma": 0.25,
+    "n_min": 15
+  },
+  "results": {
+    "fidelity_pct": 100.0,
+    "compression_pct": 36.7,
+    "activated": 65,
+    "score": 0.8101
+  },
+  "previous_v1_2": {
+    "fidelity_pct": 87.9,
+    "compression_pct": 32.9,
+    "lambda_tfidf": 0.5,
+    "lambda_pos": 0.3,
+    "lambda_dep": 0.2,
+    "rho_target": 0.4
+  }
+}
