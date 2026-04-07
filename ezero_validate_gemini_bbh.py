@@ -19,18 +19,15 @@ import time
 import json
 import re
 
-# ── Clé API Gemini ───────────────────────────────────────────────────────────
-GEMINI_API_KEY = "AIzaSyBU7aHaZKV_WT7YkOq_uien9B8ne75Mhkw"
+from dotenv import load_dotenv
+import os
+load_dotenv()
 
-if GEMINI_API_KEY == "YOUR_API_KEY_HERE":
-    print("❌ ERREUR: Remplace YOUR_API_KEY_HERE par ta vraie clé API Gemini")
-    print("   Clic droit sur ce fichier → Ouvrir avec → Bloc-notes")
-    exit(1)
-
-# ── Imports ──────────────────────────────────────────────────────────────────
+# --- Configuration API ---
 import google.generativeai as genai
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
+
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from ezero_filter import EZeroFilter, EZeroConfig
